@@ -18,7 +18,7 @@ import library.interfaces.entities.IBook;
 import library.interfaces.entities.ILoan;
 import library.interfaces.entities.IMember;
 import library.panels.MainPanel;
-
+//main class implements IMainListener interface
 public class Main implements IMainListener {
 	//private variable declaration 
 	private CardReader reader;
