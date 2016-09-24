@@ -1,5 +1,5 @@
 package library;
-//
+//import statement
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 
