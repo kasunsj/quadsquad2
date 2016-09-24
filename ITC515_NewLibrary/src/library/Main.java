@@ -20,7 +20,7 @@ import library.interfaces.entities.IMember;
 import library.panels.MainPanel;
 
 public class Main implements IMainListener {
-
+	//private variable declaration 
 	private CardReader reader;
 	private Scanner scanner;
 	private Printer printer;
