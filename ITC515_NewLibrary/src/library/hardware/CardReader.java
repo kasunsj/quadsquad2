@@ -19,6 +19,7 @@ import java.awt.event.KeyEvent;
 
 public class CardReader extends JFrame implements ICardReader {
 
+	
 	private static final long serialVersionUID = 1L;
 	private JTextField textField;
 	private JButton btnReadCard;
