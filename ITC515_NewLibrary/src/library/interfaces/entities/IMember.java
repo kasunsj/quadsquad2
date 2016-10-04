@@ -58,10 +58,10 @@ public interface IMember {
 	//accessors method getContactPhone with string return type
 	public String  getContactPhone();
 	
-	//
+	//accessors method getEmailAddress with String retunr type
 	public String  getEmailAddress();
 	
-	
+	//accessors method getID with integer return type
 	public int     getID();
 	
 
