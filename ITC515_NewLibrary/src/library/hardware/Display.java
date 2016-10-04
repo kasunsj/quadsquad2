@@ -1,5 +1,5 @@
 package library.hardware;
-
+//import statements
 import library.interfaces.hardware.IDisplay;
 
 import javax.swing.JFrame;
