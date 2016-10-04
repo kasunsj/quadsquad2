@@ -8,7 +8,7 @@ import java.awt.CardLayout;
 
 
 public class Display extends JFrame implements IDisplay {
-
+	//private variables
 	private static final long serialVersionUID = 1L;
 	
 	private JPanel current; 
