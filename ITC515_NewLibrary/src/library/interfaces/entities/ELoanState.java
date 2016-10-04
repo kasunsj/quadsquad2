@@ -1,4 +1,4 @@
-package library.interfaces.entities;
+	package library.interfaces.entities;
 
 public enum ELoanState {
 	
