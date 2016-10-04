@@ -20,27 +20,36 @@ public interface IMember {
 	//defining hasReachedLoanLimit method
 	public boolean hasReachedLoanLimit();
 	
-	//defining hasFinesPayable
+	//defining hasFinesPayable method
 	public boolean hasFinesPayable();
 	
-	//defining hasReachedFineLimit
+	//defining hasReachedFineLimit method
 	public boolean hasReachedFineLimit();
 	
-	//
+	//float methods
+	//defining getFineAmount method
 	public float   getFineAmount();
 	
+	//no return type methods are defined simply void methods
+	// definition of addFine method
 	public void    addFine(float fine);
 
+	//definition of payFine method
 	public void    payFine(float payment);
 	
+	//definition of addLoan method
 	public void    addLoan(ILoan loan);
 	
+	//List formated getLoans method has been defined
 	public List<ILoan> getLoans();
 	
+	//definition of removeLoan  
 	public void    removeLoan(ILoan loan);
 	
+	//defining EMemberState method
 	public EMemberState   getState();
 	
+	//
 	public String  getFirstName();
 	
 	public String  getLastName();
