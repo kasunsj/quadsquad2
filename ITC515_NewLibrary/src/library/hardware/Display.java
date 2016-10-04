@@ -12,7 +12,7 @@ public class Display extends JFrame implements IDisplay {
 	private static final long serialVersionUID = 1L;
 	
 	private JPanel current; 
-
+	//Display method
 	public Display() {
 		setTitle("Display");
 		setBounds(500, 50, 470, 680);
