@@ -7,8 +7,10 @@ import java.util.List;
 //interface method has been created 
 public interface IMember {
 	
+	//static final integer variable 
 	public static final int   LOAN_LIMIT = 5;
 	
+	//static final float variable 
 	public static final float FINE_LIMIT = 10.0f;	
 	
 	
