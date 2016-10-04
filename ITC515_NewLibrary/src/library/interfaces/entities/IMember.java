@@ -4,6 +4,7 @@ package library.interfaces.entities;
 //importing the java util packages 
 import java.util.List;
 
+//interface method has been created 
 public interface IMember {
 	
 	public static final int   LOAN_LIMIT = 5;
