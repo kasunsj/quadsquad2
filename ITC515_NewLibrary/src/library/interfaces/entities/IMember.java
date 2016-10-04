@@ -55,7 +55,7 @@ public interface IMember {
 	//accessor method getLastName with string return type
 	public String  getLastName();
 	
-	//
+	//accessors method getContactPhone with string return type
 	public String  getContactPhone();
 	
 	//
