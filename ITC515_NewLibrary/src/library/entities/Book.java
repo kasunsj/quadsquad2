@@ -1,5 +1,5 @@
 package library.entities;
-
+//import statement
 import library.interfaces.entities.EBookState;
 import library.interfaces.entities.IBook;
 import library.interfaces.entities.ILoan;
