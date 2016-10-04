@@ -49,14 +49,18 @@ public interface IMember {
 	//defining EMemberState method
 	public EMemberState   getState();
 	
-	//
+	//accessor methods getFirstName with string return type
 	public String  getFirstName();
 	
+	//accessor method getLastName with string return type
 	public String  getLastName();
 	
+	//
 	public String  getContactPhone();
 	
+	//
 	public String  getEmailAddress();
+	
 	
 	public int     getID();
 	
