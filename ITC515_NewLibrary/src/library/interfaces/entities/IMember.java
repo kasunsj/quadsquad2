@@ -49,7 +49,7 @@ public interface IMember {
 	//defining EMemberState method
 	public EMemberState   getState();
 	
-	//accessor methods getFirstName with string return type
+	//accessor methods getFirstName 
 	public String  getFirstName();
 	
 	//accessor method getLastName with string return type
