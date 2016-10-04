@@ -4,6 +4,7 @@ import library.entities.Member;
 import library.interfaces.daos.IMemberHelper;
 import library.interfaces.entities.IMember;
 
+
 public class MemberHelper implements IMemberHelper {
 
 	@Override
