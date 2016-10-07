@@ -8,6 +8,7 @@ public interface ICardReader {
 	//Listener method with ICardReaderListemner has been created
 	public void addListener(ICardReaderListener listener);
 
+	//no return type method with boolean parameter has been created
 	public void setEnabled(boolean enabled);
 
 }
