@@ -18,6 +18,7 @@ import java.awt.Color;
 
 public class SwipeCardPanel extends ABorrowPanel {
 
+	//orivate static final long variable
 	private static final long serialVersionUID = 1L;
 	private JLabel lblErrMesg;
 
