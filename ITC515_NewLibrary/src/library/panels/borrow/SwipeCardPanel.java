@@ -39,6 +39,7 @@ public class SwipeCardPanel extends ABorrowPanel {
 		lblSwipeCard.setBounds(12, 181, 436, 78);
 		add(lblSwipeCard);
 		
+		//initiation and definiton of jbutton
 		JButton btnCancel = new JButton("Cancel");
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
