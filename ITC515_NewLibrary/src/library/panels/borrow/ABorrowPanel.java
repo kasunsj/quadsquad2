@@ -34,7 +34,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 	
 	@Override
 	public void displayOverDueMessage() {
-		throw new RuntimeException("Illegal operation in current state");		
+		throw new RuntimeException("Illegal operation in current state");//throwing exception	
 	}
 
 	
