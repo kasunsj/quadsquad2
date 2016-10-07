@@ -10,6 +10,7 @@ public interface IBook {
 	//access to the ILoan class method getLoan
 	public ILoan getLoan();
 	
+	//no return type with boolean parameter has defined
 	public void returnBook(boolean damaged);
 	
 	public void lose();
