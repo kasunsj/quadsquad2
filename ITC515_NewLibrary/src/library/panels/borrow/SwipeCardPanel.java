@@ -50,7 +50,7 @@ public class SwipeCardPanel extends ABorrowPanel {
 		btnCancel.setBounds(170, 320, 127, 35);
 		add(btnCancel);
 		
-		lblErrMesg = new JLabel();
+		lblErrMesg = new JLabel();  //initiation of label error message
 		lblErrMesg.setForeground(Color.RED);
 		lblErrMesg.setFont(new Font("Tahoma", Font.BOLD, 14));
 		lblErrMesg.setBounds(12, 592, 434, 29);
