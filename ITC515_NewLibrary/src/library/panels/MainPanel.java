@@ -27,6 +27,7 @@ public class MainPanel extends JPanel {
 		setBounds(500, 50, 470, 680); //setting the bound value
 		setLayout(null);//layout null
 		
+		//definitipn and initiation of the Jlabel object  
 		JLabel lblNewLabel = new JLabel("Backwoods Regional Library");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 26));
