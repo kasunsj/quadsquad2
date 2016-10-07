@@ -1,8 +1,10 @@
 //package in the IBook exists
 package library.interfaces.entities;
 
+//public interface IBook has been created
 public interface IBook {
 	
+	//definition of the method borrow with no return type has been created
 	public void borrow(ILoan loan);
 	
 	public ILoan getLoan();
