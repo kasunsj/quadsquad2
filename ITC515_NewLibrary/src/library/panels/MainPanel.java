@@ -20,6 +20,7 @@ public class MainPanel extends JPanel {
 	//static final and long varaiabel 
 	private static final long serialVersionUID = 1L;
 
+	//Constructor with IMainListener parameter 
 	public MainPanel(IMainListener listener) {
 		setBorder(new TitledBorder(null, "Main Menu", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		setBounds(500, 50, 470, 680);
