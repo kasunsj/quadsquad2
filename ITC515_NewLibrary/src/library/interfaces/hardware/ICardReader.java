@@ -5,7 +5,7 @@ package library.interfaces.hardware;
 public interface ICardReader {
 	
 	//no return type method
-	
+	//Listener method with ICardReaderListemner has been created
 	public void addListener(ICardReaderListener listener);
 
 	public void setEnabled(boolean enabled);
