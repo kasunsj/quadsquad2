@@ -69,7 +69,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 	
 	@Override
 	public void displayConfirmingLoan(String loanDetails) {
-		throw new RuntimeException("Illegal operation in current state");		
+		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
 	}
 
 	
