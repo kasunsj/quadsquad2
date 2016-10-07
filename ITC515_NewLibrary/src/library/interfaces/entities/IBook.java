@@ -28,6 +28,7 @@ public interface IBook {
 	//string return type method
 	public String getAuthor();
 	
+	//string return type getTitle method 
 	public String getTitle();
 	
 	public String getCallNumber();
