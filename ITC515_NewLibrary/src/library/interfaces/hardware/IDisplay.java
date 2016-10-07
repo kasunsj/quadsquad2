@@ -4,6 +4,7 @@ package library.interfaces.hardware;
 //importing javax's swing package
 import javax.swing.JPanel;
 
+//interface IDisplay has created
 public interface IDisplay {
 	
 	public JPanel getDisplay();
