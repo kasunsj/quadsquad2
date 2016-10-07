@@ -32,6 +32,7 @@ public class SwipeCardPanel extends ABorrowPanel {
 		setBounds(12, 23, 460, 640);
 		//setBounds(12, 23, 614, 451);
 		
+		//definition and initiation of the JLabel 
 		JLabel lblSwipeCard = new JLabel("Swipe Card Please");
 		lblSwipeCard.setHorizontalAlignment(SwingConstants.CENTER);
 		lblSwipeCard.setFont(new Font("Tahoma", Font.PLAIN, 42));
