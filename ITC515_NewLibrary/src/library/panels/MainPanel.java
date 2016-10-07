@@ -32,7 +32,7 @@ public class MainPanel extends JPanel {
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER); //setting horizontal alignment
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 26)); //setting font style 
 		lblNewLabel.setBounds(12, 27, 446, 32); //setting bounds
-		add(lblNewLabel); //adding
+		add(lblNewLabel); //adding new label
 		
 		JLabel lblSelfServiceSystem = new JLabel("Self Service System");
 		lblSelfServiceSystem.setHorizontalAlignment(SwingConstants.CENTER);
