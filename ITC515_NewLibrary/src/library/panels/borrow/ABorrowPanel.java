@@ -11,8 +11,9 @@ import library.interfaces.IBorrowUI;
 public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 
 	private static final long serialVersionUID = 1L;
-
+    //private static and final long variable
 	
+	//
 	@Override
 	public void setState(EBorrowState state) {
 		throw new RuntimeException("Illegal operation in current state");		
