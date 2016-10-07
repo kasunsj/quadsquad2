@@ -13,7 +13,7 @@ public interface ILoan {
 	//commit method with integer parameter and no return type is created
 	public void commit(int id);
 	
-	//definiton of a no return type method has been created
+	//definition of a no return type method has been created
 	public void complete();
 	
 	public boolean isOverDue();
