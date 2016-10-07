@@ -16,7 +16,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 	//no return type method with EBorrowState parameter
 	@Override
 	public void setState(EBorrowState state) {
-		throw new RuntimeException("Illegal operation in current state");		
+		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
 	}
 
 	
