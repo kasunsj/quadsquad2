@@ -60,7 +60,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
 	}
 
-	
+	//dipslaying pending loan with no return type and string parameter 
 	@Override
 	public void displayPendingLoan(String loanDetails) {
 		throw new RuntimeException("Illegal operation in current state");	//runtime exception 	
