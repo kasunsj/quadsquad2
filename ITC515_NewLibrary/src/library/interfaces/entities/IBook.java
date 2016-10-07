@@ -22,6 +22,7 @@ public interface IBook {
 	//no return type method
 	public void dispose();	
 	
+	//accessing EBookState 's get State method to get status of book
 	public EBookState getState();
 	
 	public String getAuthor();
