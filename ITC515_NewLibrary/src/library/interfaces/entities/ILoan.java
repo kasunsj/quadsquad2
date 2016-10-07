@@ -9,7 +9,7 @@ public interface ILoan {
 	
 	public static final int LOAN_PERIOD = 14;
 	
-	//commit method with integer parameter and no return typ ei screated
+	//commit method with integer parameter and no return type is created
 	public void commit(int id);
 	
 	public void complete();
