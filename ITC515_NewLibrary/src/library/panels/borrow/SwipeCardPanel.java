@@ -58,6 +58,7 @@ public class SwipeCardPanel extends ABorrowPanel {
 
 	}
 
+	//displaying error message with string parameter
 	@Override
 	public void displayErrorMessage(String errorMesg) {
 		lblErrMesg.setText(errorMesg);		
