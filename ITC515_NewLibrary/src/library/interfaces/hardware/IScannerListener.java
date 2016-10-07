@@ -1,3 +1,4 @@
+//package where the IScannerListener.java exists
 package library.interfaces.hardware;
 
 public interface IScannerListener {
