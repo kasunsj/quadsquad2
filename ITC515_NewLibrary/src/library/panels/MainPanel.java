@@ -46,7 +46,7 @@ public class MainPanel extends JPanel {
 		//adding ActionListener to th eJButton
 		btnBorrowBooks.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				listener.borrowBooks();
+				listener.borrowBooks(); //listener borrow books method has been called
 			}
 		});
 		btnBorrowBooks.setFont(new Font("Tahoma", Font.PLAIN, 14));
