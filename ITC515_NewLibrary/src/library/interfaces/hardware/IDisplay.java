@@ -7,7 +7,10 @@ import javax.swing.JPanel;
 //interface IDisplay has created
 public interface IDisplay {
 	
+	//accessing Jpanel program's method getDisplay()
 	public JPanel getDisplay();
+	
+	//no return type display method with Jpanle and a indentifier parameters
 	public void setDisplay(JPanel panel, String identifier);
 	
 }
