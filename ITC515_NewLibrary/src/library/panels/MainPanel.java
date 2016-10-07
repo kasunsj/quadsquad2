@@ -34,6 +34,7 @@ public class MainPanel extends JPanel {
 		lblNewLabel.setBounds(12, 27, 446, 32); //setting bounds
 		add(lblNewLabel); //adding new label
 		
+		//initiation of new jlabel object 
 		JLabel lblSelfServiceSystem = new JLabel("Self Service System");
 		lblSelfServiceSystem.setHorizontalAlignment(SwingConstants.CENTER);
 		lblSelfServiceSystem.setFont(new Font("Tahoma", Font.PLAIN, 26));
