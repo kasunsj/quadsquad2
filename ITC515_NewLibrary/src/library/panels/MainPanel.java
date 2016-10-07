@@ -43,6 +43,7 @@ public class MainPanel extends JPanel {
 		
 		//initiation and defintion of JButton
 		JButton btnBorrowBooks = new JButton("Borrow Books");
+		//adding ActionListener to th eJButton
 		btnBorrowBooks.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				listener.borrowBooks();
