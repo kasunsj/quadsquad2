@@ -24,7 +24,7 @@ public class MainPanel extends JPanel {
 	public MainPanel(IMainListener listener) {
 		//setting and adjusting the default Border and the Title Border
 		setBorder(new TitledBorder(null, "Main Menu", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		setBounds(500, 50, 470, 680);
+		setBounds(500, 50, 470, 680); //setting the bound value
 		setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Backwoods Regional Library");
