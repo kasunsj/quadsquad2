@@ -50,7 +50,7 @@ public class MainPanel extends JPanel {
 			}
 		});
 		btnBorrowBooks.setFont(new Font("Tahoma", Font.PLAIN, 14)); //setting font
-		btnBorrowBooks.setBounds(141, 138, 155, 37);
+		btnBorrowBooks.setBounds(141, 138, 155, 37); //setting bounds
 		add(btnBorrowBooks);
         //setBounds(500, 100, 750, 615);
 	}
