@@ -25,6 +25,7 @@ public interface IBook {
 	//accessing EBookState 's get State method to get status of book
 	public EBookState getState();
 	
+	//string return type method
 	public String getAuthor();
 	
 	public String getTitle();
