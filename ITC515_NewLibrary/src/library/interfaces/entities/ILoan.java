@@ -1,12 +1,15 @@
+//package that the EBookState.java exists
 package library.interfaces.entities;
 
+//importing java util Date file
 import java.util.Date;
 
+//a public interface has been created
 public interface ILoan {
 	
 	public static final int LOAN_PERIOD = 14;
 	
-	
+	//commit method with integer parameter and no return typ ei screated
 	public void commit(int id);
 	
 	public void complete();
