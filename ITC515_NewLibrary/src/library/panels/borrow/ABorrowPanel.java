@@ -51,7 +51,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 
 	@Override
 	public void displayOverFineLimitMessage(float amountOwing) {
-		throw new RuntimeException("Illegal operation in current state");		
+		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
 	}
 
 
