@@ -22,6 +22,7 @@ public class MainPanel extends JPanel {
 
 	//Constructor with IMainListener parameter 
 	public MainPanel(IMainListener listener) {
+		//setting and adjusting the default Border and the Title Border
 		setBorder(new TitledBorder(null, "Main Menu", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		setBounds(500, 50, 470, 680);
 		setLayout(null);
