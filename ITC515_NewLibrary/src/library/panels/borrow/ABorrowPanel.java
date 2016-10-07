@@ -1,6 +1,7 @@
 //package the location of the ABorrowPanel1
 package library.panels.borrow;
 
+//importing the javax swing
 import javax.swing.JPanel;
 
 import library.interfaces.EBorrowState;
