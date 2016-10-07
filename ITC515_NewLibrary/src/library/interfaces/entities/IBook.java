@@ -34,7 +34,7 @@ public interface IBook {
 	//string return type getCallNumber method
 	public String getCallNumber();
 	
-	//integer 
+	//integer return type getID
 	public int getID();
 
 }
