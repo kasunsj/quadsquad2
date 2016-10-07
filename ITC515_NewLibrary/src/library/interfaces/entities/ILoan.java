@@ -25,6 +25,7 @@ public interface ILoan {
 	//accessing the borrower details from the IMember class
 	public IMember getBorrower();
 	
+	//accessing the details of the book from IBook
 	public IBook getBook();
 	
 	public int getID();
