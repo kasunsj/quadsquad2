@@ -54,7 +54,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
 	}
 
-
+    //display scanned book details with string parameters and no return type
 	@Override
 	public void displayScannedBookDetails(String bookDetails) {
 		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
