@@ -16,6 +16,7 @@ public interface ILoan {
 	//definition of a no return type method has been created
 	public void complete();
 	
+	//definition of the boolean return type mwthod
 	public boolean isOverDue();
 	
 	public boolean checkOverDue(Date currentDate);
