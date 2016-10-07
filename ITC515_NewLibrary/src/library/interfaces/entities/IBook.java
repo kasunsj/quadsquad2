@@ -4,7 +4,7 @@ package library.interfaces.entities;
 //public interface IBook has been created
 public interface IBook {
 	
-	//definition of the method borrow with no return type has been created
+	//definition of the method borrow with no return type and ILoan parameter has been created
 	public void borrow(ILoan loan);
 	
 	public ILoan getLoan();
