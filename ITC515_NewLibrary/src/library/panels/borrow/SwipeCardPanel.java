@@ -25,6 +25,7 @@ public class SwipeCardPanel extends ABorrowPanel {
 	/**
 	 * Create the panel.
 	 */
+	//constructor with listener parameter
 	public SwipeCardPanel(IBorrowUIListener listener) {
 		setLayout(null);
 		setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Borrow Book - Initialized", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 0)));
