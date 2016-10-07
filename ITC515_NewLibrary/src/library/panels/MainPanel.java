@@ -41,6 +41,7 @@ public class MainPanel extends JPanel {
 		lblSelfServiceSystem.setBounds(12, 61, 446, 32);//setting bounds
 		add(lblSelfServiceSystem);//adding new label 
 		
+		//initiation and defintion of JButton
 		JButton btnBorrowBooks = new JButton("Borrow Books");
 		btnBorrowBooks.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
