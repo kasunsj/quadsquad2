@@ -1,6 +1,7 @@
 //package where swipecardpanel exists
 package library.panels.borrow;
 
+//importing javax swing package
 import javax.swing.SwingConstants;
 import javax.swing.border.TitledBorder;
 
