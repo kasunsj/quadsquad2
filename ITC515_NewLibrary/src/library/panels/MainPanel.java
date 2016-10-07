@@ -30,7 +30,7 @@ public class MainPanel extends JPanel {
 		//definitipn and initiation of the Jlabel object  
 		JLabel lblNewLabel = new JLabel("Backwoods Regional Library");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER); //setting horizontal alignment
-		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 26)); //setting 
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 26)); //setting font style 
 		lblNewLabel.setBounds(12, 27, 446, 32); //setting 
 		add(lblNewLabel); //adding
 		
