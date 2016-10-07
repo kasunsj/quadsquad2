@@ -37,7 +37,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");//throwing exception	
 	}
 
-	
+	//displaying loan limit
 	@Override
 	public void displayAtLoanLimitMessage() {
 		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
