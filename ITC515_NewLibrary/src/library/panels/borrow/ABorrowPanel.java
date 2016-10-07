@@ -43,7 +43,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
 	}
 
-	
+	//displaying the fine message
 	@Override
 	public void displayOutstandingFineMessage(float amountOwing) {
 		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
