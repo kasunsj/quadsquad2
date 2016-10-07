@@ -1,3 +1,4 @@
+//package where MainPanel.ajav exists
 package library.panels;
 
 import javax.swing.JPanel;
