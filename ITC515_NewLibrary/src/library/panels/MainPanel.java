@@ -17,6 +17,7 @@ import java.awt.event.ActionEvent;
 //classMianPanel which extends JPanel
 public class MainPanel extends JPanel {
 
+	//static final and long varaiabel 
 	private static final long serialVersionUID = 1L;
 
 	public MainPanel(IMainListener listener) {
