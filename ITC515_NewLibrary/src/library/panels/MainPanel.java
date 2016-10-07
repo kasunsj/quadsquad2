@@ -39,7 +39,7 @@ public class MainPanel extends JPanel {
 		lblSelfServiceSystem.setHorizontalAlignment(SwingConstants.CENTER);//setting horizontal alignment
 		lblSelfServiceSystem.setFont(new Font("Tahoma", Font.PLAIN, 26));//setting font
 		lblSelfServiceSystem.setBounds(12, 61, 446, 32);//setting bounds
-		add(lblSelfServiceSystem);
+		add(lblSelfServiceSystem);//adding new label 
 		
 		JButton btnBorrowBooks = new JButton("Borrow Books");
 		btnBorrowBooks.addActionListener(new ActionListener() {
