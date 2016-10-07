@@ -7,6 +7,7 @@ public interface IBook {
 	//definition of the method borrow with no return type and ILoan parameter has been created
 	public void borrow(ILoan loan);
 	
+	//access to the ILoan class method getLoan
 	public ILoan getLoan();
 	
 	public void returnBook(boolean damaged);
