@@ -49,7 +49,7 @@ public class MainPanel extends JPanel {
 				listener.borrowBooks(); //listener borrow books method has been called
 			}
 		});
-		btnBorrowBooks.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnBorrowBooks.setFont(new Font("Tahoma", Font.PLAIN, 14)); //setting font
 		btnBorrowBooks.setBounds(141, 138, 155, 37);
 		add(btnBorrowBooks);
         //setBounds(500, 100, 750, 615);
