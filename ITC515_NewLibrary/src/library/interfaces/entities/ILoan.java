@@ -22,7 +22,7 @@ public interface ILoan {
 	//definition  of the boolean return type with the date parameter
 	public boolean checkOverDue(Date currentDate);
 	
-	//accessing the borrower details from th eIMember class
+	//accessing the borrower details from the IMember class
 	public IMember getBorrower();
 	
 	public IBook getBook();
