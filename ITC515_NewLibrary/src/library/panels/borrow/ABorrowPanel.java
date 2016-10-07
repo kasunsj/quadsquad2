@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 import library.interfaces.EBorrowState;
 import library.interfaces.IBorrowUI;
 
+//abstract class extends Jpanel and implementing IBroowUI
 public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 
 	private static final long serialVersionUID = 1L;
