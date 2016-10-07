@@ -19,7 +19,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
 	}
 
-	
+	//displaying member list method with no return type and parameters
 	@Override
 	public void displayMemberDetails(int memberID, String memberName, String memberPhone) {
 		throw new RuntimeException("Illegal operation in current state");		
