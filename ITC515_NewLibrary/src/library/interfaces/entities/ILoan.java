@@ -28,7 +28,7 @@ public interface ILoan {
 	//accessing the details of the book from IBook
 	public IBook getBook();
 	
-	//definition of the method with the integer return type
+	//definition of the getID method with the integer return type
 	public int getID();
 	
 
