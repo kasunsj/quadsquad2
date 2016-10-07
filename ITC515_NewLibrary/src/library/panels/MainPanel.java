@@ -1,6 +1,7 @@
 //package where MainPanel.ajav exists
 package library.panels;
 
+//importing the javax swing package
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 
