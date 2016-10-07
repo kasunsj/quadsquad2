@@ -16,6 +16,7 @@ public interface IBook {
 	//no return type method defined
 	public void lose();
 	
+	//no return type method
 	public void repair();
 	
 	public void dispose();	
