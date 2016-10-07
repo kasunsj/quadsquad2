@@ -25,10 +25,10 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
 	}
 
-	//no return type method with stirng parameters
+	//no return type method with string parameters
 	@Override
 	public void displayExistingLoan(String loanDetails) {
-		throw new RuntimeException("Illegal operation in current state");		
+		throw new RuntimeException("Illegal operation in current state");//throwing runtime exception	
 	}
 
 	
