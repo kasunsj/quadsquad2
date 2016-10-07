@@ -13,6 +13,7 @@ public interface IBook {
 	//no return type with boolean parameter has defined
 	public void returnBook(boolean damaged);
 	
+	//no return type method defined
 	public void lose();
 	
 	public void repair();
