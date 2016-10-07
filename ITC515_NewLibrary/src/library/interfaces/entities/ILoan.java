@@ -7,7 +7,7 @@ import java.util.Date;
 //a public interface has been created
 public interface ILoan {
 	
-	//a static and final integer varaialben has been created
+	//a static and final integer variable has been created
 	public static final int LOAN_PERIOD = 14;
 	
 	//commit method with integer parameter and no return type is created
