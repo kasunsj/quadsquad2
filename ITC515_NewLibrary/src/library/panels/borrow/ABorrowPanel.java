@@ -66,7 +66,7 @@ public abstract class ABorrowPanel extends JPanel implements IBorrowUI {
 		throw new RuntimeException("Illegal operation in current state");	//runtime exception 	
 	}
 
-	
+	//displyconfirming method with no return type and string parameter
 	@Override
 	public void displayConfirmingLoan(String loanDetails) {
 		throw new RuntimeException("Illegal operation in current state");	//throwing runtime exception	
