@@ -19,6 +19,7 @@ public interface IBook {
 	//no return type method
 	public void repair();
 	
+	//no return type method
 	public void dispose();	
 	
 	public EBookState getState();
