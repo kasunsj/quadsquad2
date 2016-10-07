@@ -19,6 +19,7 @@ public interface ILoan {
 	//definition of the boolean return type method
 	public boolean isOverDue();
 	
+	//definition  of the boolean return type with th edate parameter
 	public boolean checkOverDue(Date currentDate);
 	
 	public IMember getBorrower();
