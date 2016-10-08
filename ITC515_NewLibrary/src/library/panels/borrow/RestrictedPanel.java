@@ -61,6 +61,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		pendingLoanListSCL.setBounds(10, 18, 394, 96);
 		panel_4.add(pendingLoanListSCL);
 		
+		//declaration of the JTextArea and setting its properities
 		JTextArea pendingLoanListTA = new JTextArea();
 		pendingLoanListTA.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		pendingLoanListSCL.setViewportView(pendingLoanListTA);
