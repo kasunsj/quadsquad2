@@ -84,13 +84,14 @@ public class RestrictedPanel extends ABorrowPanel {
 		currentBookTA.setEditable(false);
 		currentBookSCL.setViewportView(currentBookTA);
 
-		//declaration of the JPaneland setting its properties
+		//declaration of the JPanel and setting its properties
 		JPanel panel_3 = new JPanel();
 		panel_3.setLayout(null);
 		panel_3.setBorder(new TitledBorder(null, "Borrower Details", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel_3.setBounds(10, 25, 434, 252);
 		this.add(panel_3);
 		
+		//declaration of the JLabel and setting its properties
 		JLabel lbl_11 = new JLabel("Id: ");
 		lbl_11.setBounds(12, 20, 20, 14);
 		panel_3.add(lbl_11);
@@ -101,6 +102,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		lblBorrowerId.setBounds(32, 20, 46, 14);
 		panel_3.add(lblBorrowerId);
 		
+		//declaration of the JLabel and setting its properties
 		JLabel label = new JLabel("Name: ");
 		label.setBounds(81, 20, 46, 14);
 		panel_3.add(label);
