@@ -61,21 +61,24 @@ public class RestrictedPanel extends ABorrowPanel {
 		pendingLoanListSCL.setBounds(10, 18, 394, 96);
 		panel_4.add(pendingLoanListSCL);
 		
-		//declaration of the JTextArea and setting its properities
+		//declaration of the JTextArea and setting its properties
 		JTextArea pendingLoanListTA = new JTextArea();
 		pendingLoanListTA.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		pendingLoanListSCL.setViewportView(pendingLoanListTA);
 		
+		//declaration of the JPanel and setting its properties
 		JPanel panel_5 = new JPanel();
 		panel_5.setBorder(new TitledBorder(null, "Current Book", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel_5.setBounds(10, 18, 414, 89);
 		panel_2.add(panel_5);
 		panel_5.setLayout(null);
 		
+		//declaration of the JScrollPane and setting its properties
 		JScrollPane currentBookSCL = new JScrollPane();
 		currentBookSCL.setBounds(10, 18, 394, 60);
 		panel_5.add(currentBookSCL);
 		
+		//declaration of the JTextArea and setting its properties
 		JTextArea currentBookTA = new JTextArea();
 		currentBookTA.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		currentBookTA.setEditable(false);
