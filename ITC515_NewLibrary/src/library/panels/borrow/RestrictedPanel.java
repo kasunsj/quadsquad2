@@ -212,12 +212,13 @@ public class RestrictedPanel extends ABorrowPanel {
 		lblBorrowerContact.setText(memberPhone);
 	}
 
+	//displaying over due messages
 	@Override
 	public void displayOverDueMessage() {
 		lblOverdue.setText("Borrower has overdue loans");
 	}
 
-	
+	//displaying at aloan limit message
 	@Override
 	public void displayAtLoanLimitMessage() {
 		lblLoanLimit.setText("Borrower has reached maximum number of borrowed items");
