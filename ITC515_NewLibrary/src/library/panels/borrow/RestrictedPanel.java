@@ -132,6 +132,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		panel_6.setBounds(10, 112, 414, 129);
 		panel_3.add(panel_6);
 		
+		//declaration of the JScrollPane and setting its properties
 		JScrollPane existingLoanListSCL = new JScrollPane();
 		existingLoanListSCL.setBounds(10, 22, 394, 96);
 		panel_6.add(existingLoanListSCL);
