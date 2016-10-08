@@ -195,6 +195,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		btnCancel.setBounds(271, 544, 127, 35);
 		add(btnCancel);
 		
+		//declaration of the JLabel and setting its properties
 		lblErrMesg = new JLabel();
 		lblErrMesg.setForeground(Color.RED);
 		lblErrMesg.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -203,6 +204,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		
 	}
 
+	//dispalyMemberDetails and setting its properties
 	@Override
 	public void displayMemberDetails(int memberID, String memberName, String memberPhone) {
 		lblBorrowerId.setText(Integer.valueOf(memberID).toString());
