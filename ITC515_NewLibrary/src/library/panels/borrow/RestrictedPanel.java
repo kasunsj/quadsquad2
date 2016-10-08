@@ -125,6 +125,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		lblBorrowerContact.setBounds(338, 21, 86, 14);
 		panel_3.add(lblBorrowerContact);
 		
+		//declaration of the JPanel and setting its properties
 		JPanel panel_6 = new JPanel();
 		panel_6.setLayout(null);
 		panel_6.setBorder(new TitledBorder(null, "Existing Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));
