@@ -35,6 +35,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		this.add(panel);
 		panel.setLayout(null);
 		
+		//definition and initialization of the JScrollPane,and its alignment border,layout 
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 20, 395, 463);
 		panel.add(scrollPane);
