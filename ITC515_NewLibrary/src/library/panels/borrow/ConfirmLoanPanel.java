@@ -15,6 +15,7 @@ import java.awt.Font;
 
 public class ConfirmLoanPanel extends ABorrowPanel {
 
+	//private static final long variable
 	private static final long serialVersionUID = 1L;
 	private JTextArea loanListTA;
 
