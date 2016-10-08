@@ -1,5 +1,5 @@
 package library.panels.borrow;
-
+//import statement
 import javax.swing.JPanel;
 
 import library.interfaces.EBorrowState;
