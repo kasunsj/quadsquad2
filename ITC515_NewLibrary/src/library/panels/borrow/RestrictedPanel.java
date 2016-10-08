@@ -41,7 +41,8 @@ public class RestrictedPanel extends ABorrowPanel {
 		setLayout(null);
 		setBorder(new TitledBorder(null, "Scanning", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		setBounds(12, 23, 460, 640);
-		// imported from elsewhere
+		
+		// declaration of the new objectJPanel and setting it sproperities
 		JPanel panel_2 = new JPanel();
 		panel_2.setBorder(new TitledBorder(null, "Current Loan", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel_2.setBounds(10, 289, 434, 242);
