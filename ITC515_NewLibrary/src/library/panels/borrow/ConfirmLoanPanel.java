@@ -45,6 +45,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		loanListTA.setEditable(false);
 		scrollPane.setViewportView(loanListTA);
 
+		//definition and initialization of the JButton,and its alignment border,seeting font,layout 
 		JButton btnReject = new JButton("Reject");
 		btnReject.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btnReject.addActionListener(new ActionListener() {
