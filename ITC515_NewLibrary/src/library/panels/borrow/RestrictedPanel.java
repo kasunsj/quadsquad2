@@ -137,12 +137,14 @@ public class RestrictedPanel extends ABorrowPanel {
 		existingLoanListSCL.setBounds(10, 22, 394, 96);
 		panel_6.add(existingLoanListSCL);
 		
+		//declaration of the JTextArea and setting its properties
 		existingLoanListTA = new JTextArea();
 		existingLoanListTA.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		existingLoanListTA.setEditable(false);
 		existingLoanListTA.setBackground(new Color(248, 248, 248));
 		existingLoanListSCL.setViewportView(existingLoanListTA);
 		
+		//declaration of the JPanel and setting its properties
 		JPanel panel_7 = new JPanel();
 		panel_7.setLayout(null);
 		panel_7.setBorder(new TitledBorder(null, "Borrowing Restrictions", TitledBorder.LEADING, TitledBorder.TOP, null, null));
