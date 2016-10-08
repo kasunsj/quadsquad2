@@ -84,6 +84,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		currentBookTA.setEditable(false);
 		currentBookSCL.setViewportView(currentBookTA);
 
+		//declaration of the JPaneland setting its properties
 		JPanel panel_3 = new JPanel();
 		panel_3.setLayout(null);
 		panel_3.setBorder(new TitledBorder(null, "Borrower Details", TitledBorder.LEADING, TitledBorder.TOP, null, null));
