@@ -26,7 +26,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 	public ConfirmLoanPanel(IBorrowUIListener listener) {
 		setLayout(null);
 		setBorder(new TitledBorder(null, "Confirm Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		setBounds(12, 23, 460, 640);
+		setBounds(12, 23, 460, 640);//setting bounds
 		
 		JPanel panel = new JPanel();
 		panel.setBorder(new TitledBorder(null, "Current Loan List", TitledBorder.LEADING, TitledBorder.TOP, null, null));
