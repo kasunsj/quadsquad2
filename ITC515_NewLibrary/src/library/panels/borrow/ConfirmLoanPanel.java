@@ -81,7 +81,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		add(button);
 	}
 
-
+    //displayconfirmingloan with the string parameters
 	@Override
 	public void displayConfirmingLoan(String loanDetails) {
 		loanListTA.setText(loanDetails);
