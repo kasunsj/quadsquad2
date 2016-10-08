@@ -75,6 +75,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 				listener.cancelled();
 			}
 		});
+		//setting button font and bounds
 		button.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		button.setBounds(312, 533, 115, 35);
 		add(button);
