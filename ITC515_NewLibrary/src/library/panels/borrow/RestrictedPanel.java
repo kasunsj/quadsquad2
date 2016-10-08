@@ -107,16 +107,19 @@ public class RestrictedPanel extends ABorrowPanel {
 		label.setBounds(81, 20, 46, 14);
 		panel_3.add(label);
 		
+		//declaration of the JLabel and setting its properties
 		lblBorrowerName = new JLabel("Fred Nurke");
 		lblBorrowerName.setForeground(Color.BLUE);
 		lblBorrowerName.setBackground(Color.LIGHT_GRAY);
 		lblBorrowerName.setBounds(126, 21, 156, 14);
 		panel_3.add(lblBorrowerName);
 		
+		//declaration of the JLabel and setting its properties
 		JLabel label_2 = new JLabel("Contact:");
 		label_2.setBounds(282, 21, 56, 14);
 		panel_3.add(label_2);
 		
+		//declaration of the JLabel and setting its properties
 		lblBorrowerContact = new JLabel("02 63384931");
 		lblBorrowerContact.setForeground(Color.BLUE);
 		lblBorrowerContact.setBounds(338, 21, 86, 14);
