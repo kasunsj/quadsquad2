@@ -158,12 +158,14 @@ public class RestrictedPanel extends ABorrowPanel {
 		lblOverdue.setBounds(10, 18, 354, 14);
 		panel_7.add(lblOverdue);
 		
+		//declaration of the JLabel and setting its properties
 		lblFineLimit = new JLabel("");
 		lblFineLimit.setForeground(Color.RED);
 		lblFineLimit.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		lblFineLimit.setBounds(10, 32, 354, 14);
 		panel_7.add(lblFineLimit);
 		
+		//declaration of the JLabel and setting its properties
 		lblLoanLimit = new JLabel("");
 		lblLoanLimit.setForeground(Color.RED);
 		lblLoanLimit.setFont(new Font("Tahoma", Font.PLAIN, 11));
@@ -176,11 +178,13 @@ public class RestrictedPanel extends ABorrowPanel {
 				listener.scansCompleted();
 			}
 		});
+		//setting its properties of font stlye
 		btnCompleted.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btnCompleted.setBounds(69, 544, 127, 35);
 		add(btnCompleted);
 		btnCompleted.setEnabled(false);
 		
+		//declaration of the JButton and setting its properties
 		btnCancel = new JButton("Cancel");
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
