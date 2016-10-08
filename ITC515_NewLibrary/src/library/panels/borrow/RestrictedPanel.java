@@ -151,6 +151,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		panel_7.setBounds(10, 46, 414, 66);
 		panel_3.add(panel_7);
 		
+		//declaration of the JLabel and setting its properties
 		lblOverdue = new JLabel("");
 		lblOverdue.setForeground(Color.RED);
 		lblOverdue.setFont(new Font("Tahoma", Font.PLAIN, 11));
