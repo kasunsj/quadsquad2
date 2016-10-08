@@ -49,6 +49,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		this.add(panel_2);
 		panel_2.setLayout(null);
 		
+		//declaration of JPanel and setting its properities and alignemnt
 		JPanel panel_4 = new JPanel();
 		panel_4.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Pending Loan List", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel_4.setBounds(10, 107, 414, 126);
