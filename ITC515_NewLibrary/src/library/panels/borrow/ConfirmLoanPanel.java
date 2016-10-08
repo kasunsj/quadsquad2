@@ -22,6 +22,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 	/**
 	 * Create the panel.
 	 */
+	//ocnstructor with a listener
 	public ConfirmLoanPanel(IBorrowUIListener listener) {
 		setLayout(null);
 		setBorder(new TitledBorder(null, "Confirm Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));
