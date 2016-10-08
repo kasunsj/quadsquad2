@@ -56,6 +56,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		btnReject.setBounds(173, 533, 115, 35);
 		this.add(btnReject);
 		
+		//definition and initialization of the JButton,and its alignment border,layout and its alignment 
 		JButton btnConfirm = new JButton("Confirm");
 		btnConfirm.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btnConfirm.addActionListener(new ActionListener() {
