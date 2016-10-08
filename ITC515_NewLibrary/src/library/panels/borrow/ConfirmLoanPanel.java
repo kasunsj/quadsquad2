@@ -28,6 +28,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		setBorder(new TitledBorder(null, "Confirm Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));//setting horizontal alignment
 		setBounds(12, 23, 460, 640);//setting bounds
 		
+		//definition and initialization of the JPanel,and its alignment border,layout 
 		JPanel panel = new JPanel();
 		panel.setBorder(new TitledBorder(null, "Current Loan List", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel.setBounds(12, 24, 415, 496);
