@@ -19,7 +19,9 @@ import java.awt.event.ActionListener;
 
 public class RestrictedPanel extends ABorrowPanel {
 
+	//private static final long variable
 	private static final long serialVersionUID = 1L;
+	//definition to the JLabel and JButton JTestArea with private 
 	private JLabel lblBorrowerId;
 	private JLabel lblBorrowerName;
 	private JLabel lblBorrowerContact;
