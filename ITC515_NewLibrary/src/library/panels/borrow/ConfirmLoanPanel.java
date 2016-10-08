@@ -25,7 +25,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 	//ocnstructor with a listener
 	public ConfirmLoanPanel(IBorrowUIListener listener) {
 		setLayout(null);
-		setBorder(new TitledBorder(null, "Confirm Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		setBorder(new TitledBorder(null, "Confirm Loans", TitledBorder.LEADING, TitledBorder.TOP, null, null));//setting horizontal alignment
 		setBounds(12, 23, 460, 640);//setting bounds
 		
 		JPanel panel = new JPanel();
