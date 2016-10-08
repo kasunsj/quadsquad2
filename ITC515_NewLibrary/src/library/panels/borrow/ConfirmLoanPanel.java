@@ -40,6 +40,7 @@ public class ConfirmLoanPanel extends ABorrowPanel {
 		scrollPane.setBounds(10, 20, 395, 463);
 		panel.add(scrollPane);
 		
+		//initiation of the JTextArea and also setting its edtitable feature  
 		loanListTA = new JTextArea();
 		loanListTA.setEditable(false);
 		scrollPane.setViewportView(loanListTA);
