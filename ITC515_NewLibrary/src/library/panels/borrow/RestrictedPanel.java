@@ -231,7 +231,7 @@ public class RestrictedPanel extends ABorrowPanel {
 	}
 
 
-	//displayingover fine limitmessage
+	//displaying over fine limit message
  	@Override
 	public void displayOverFineLimitMessage(float amountOwing) {
 		lblFineLimit.setText(String.format("Borrower has exceeded fine limit. Amount owing: $%.2f", amountOwing ));
@@ -242,7 +242,7 @@ public class RestrictedPanel extends ABorrowPanel {
 		existingLoanListTA.setText(loanDetails);
 		existingLoanListTA.setCaretPosition(0);		
 	}
-
+    //displaying error message
 	@Override
 	public void displayErrorMessage(String errorMesg) {
 		lblErrMesg.setText(errorMesg);		
